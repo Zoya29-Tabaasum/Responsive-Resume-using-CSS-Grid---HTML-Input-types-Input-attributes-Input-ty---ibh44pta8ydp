@@ -5,8 +5,12 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-a{
+body{
+    background-color: #a6abad;
+}
+.a{
     cursor: pointer;
+
 }
 .main-content
 {
@@ -19,11 +23,11 @@ a{
 
 .left-section{
     grid-column: span 1;
-    background-color: #535957;
+    background-color: #242531;
 }
 .right-section{
     grid-column: span 1/ span 2;
-    background-color: rgb(251,251,251);
+    background-color: #f7f7f7;
 }
 .left-content{
     padding: 1rem;
@@ -143,18 +147,17 @@ a{
 .education-detail{
     display: flex;
     margin: 1rem 0;
-    justify-content: space-between;
+    
 }
 
 .experience-detail{
     display: flex;
     margin: 1rem 0;
-    justify-content: space-between ;
 }
 .project-detail{
     display: flex;
         margin: 1rem 0;
-        justify-content: space-between;
+        
     }
 .about-me-section{
     margin-bottom: 2rem;
