@@ -5,5 +5,164 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+a{
+    cursor: pointer;
+}
+.main-content
+{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+    margin: 20px auto;
+    width: 90%;
+}
 
+.left-section{
+    grid-column: span 1;
+    background-color: #535957;
+}
+.right-section{
+    grid-column: span 1/ span 2;
+    background-color: rgb(251,251,251);
+}
+.left-content{
+    padding: 1rem;
+    color: #f7f7f7;
+}
+.profile-image{
+    width: 60%;
+    border: 5px solid #fff;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
+}
+.Name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    color: #fff;
+}
+.Designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.Description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.8;
+    color: #fff;
+}
+.contact-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-details{
+    color: #fff;
+    margin-top: 0.5rem;
+}
+.contact-label{
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+}
+.icon {
+    margin:0 0.5rem;
+}
+.email,.telephone,.address{
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    color: #fff;
+}
+
+.skill-name
+{
+    font-size: 0.65rem;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color: #fff;
+}
+
+.progress-bar{
+    border: 1px solid white ;
+    height: 4px;
+    background-color: #fff;
+    
+}
+
+.progress-java{
+    width: 90%;
+}
+
+.progress-html{
+    width: 85%;
+}
+
+.progress-css{
+    width: 80%;
+}
+
+.progress-ds{
+    width: 75%;
+}
+
+.progress-dbms{
+    width: 70%;
+}
+
+.skill{
+    margin-bottom: 1rem;
+}
+
+.right-main-content{
+    padding: 2rem 3rem;
+
+}
+.right-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.education-detail{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.experience-detail{
+display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+.project-detail{
+    display: flex;
+        margin: 1rem 0;
+        justify-content: space-between;
+    }
+.about-me-section{
+    margin-bottom: 2rem;
+}
+.detail-left-section{
+    margin-right: 4rem;
+}
+@media screen and(max-width:673px){
+    .main-content{
+        grid-template-columns: (1, 1fr);
+    }
+}
 /* Write CSS code below */
